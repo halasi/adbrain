@@ -26,9 +26,6 @@ public class bookAmazon {
         driver.findElement(By.xpath(
     		    "//*[@id='nav-flyout-shopAll']/div[3]/div[9]/div[1]/a[1]/span"
     		  )).click();
-     //   driver.findElement(By.xpath(
-       // 		    "//*[@id='shopAllLinks']/tbody/tr/td[2]/div[3]/ul/li[1]/a"
-        //		  )).click();
                 
     // Search for "hobbit"        
         driver.findElement(By.name("field-keywords")).sendKeys("hobbit");
